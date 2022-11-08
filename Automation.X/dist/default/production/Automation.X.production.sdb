@@ -1,0 +1,221 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F2520 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"56 C:\Users\HP\MPLABXProjects\Automation.X\remote.c
+[v _delay delay `(v  1 e 1 0 ]
+[v i2_delay delay `(v  1 e 1 0 ]
+"68
+[v _timer timer `(v  1 e 1 0 ]
+"95
+[v _main main `(v  1 e 1 0 ]
+"358
+[v _isr isr `IIH(v  1 e 1 0 ]
+"52 C:/Program Files/Microchip/MPLABX/v5.50/packs/Microchip/PIC18Fxxxx_DFP/1.2.26/xc8\pic\include\proc\pic18f2520.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+[s S73 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+"315
+[s S117 . 1 `uc 1 INT0 1 0 :1:0 
+`uc 1 INT1 1 0 :1:1 
+`uc 1 INT2 1 0 :1:2 
+`uc 1 CCP2 1 0 :1:3 
+`uc 1 KBI0 1 0 :1:4 
+`uc 1 KBI1 1 0 :1:5 
+`uc 1 KBI2 1 0 :1:6 
+`uc 1 KBI3 1 0 :1:7 
+]
+[s S126 . 1 `uc 1 AN12 1 0 :1:0 
+`uc 1 AN10 1 0 :1:1 
+`uc 1 AN8 1 0 :1:2 
+`uc 1 AN9 1 0 :1:3 
+`uc 1 AN11 1 0 :1:4 
+`uc 1 PGM 1 0 :1:5 
+`uc 1 PGC 1 0 :1:6 
+`uc 1 PGD 1 0 :1:7 
+]
+[s S135 . 1 `uc 1 FLT0 1 0 :1:0 
+]
+[s S137 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 CCP2_PA2 1 0 :1:3 
+]
+[u S140 . 1 `S73 1 . 1 0 `S117 1 . 1 0 `S126 1 . 1 0 `S135 1 . 1 0 `S137 1 . 1 0 ]
+[v _PORTBbits PORTBbits `VES140  1 e 1 @3969 ]
+[s S179 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"495
+[s S188 . 1 `uc 1 T1OSO 1 0 :1:0 
+`uc 1 T1OSI 1 0 :1:1 
+`uc 1 CCP1 1 0 :1:2 
+`uc 1 SCK 1 0 :1:3 
+`uc 1 SDI 1 0 :1:4 
+`uc 1 SDO 1 0 :1:5 
+`uc 1 TX 1 0 :1:6 
+`uc 1 RX 1 0 :1:7 
+]
+[s S197 . 1 `uc 1 T13CKI 1 0 :1:0 
+`uc 1 CCP2 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 SCL 1 0 :1:3 
+`uc 1 SDA 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 CK 1 0 :1:6 
+`uc 1 DT 1 0 :1:7 
+]
+[s S206 . 1 `uc 1 T1CKI 1 0 :1:0 
+]
+[s S208 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 PA2 1 0 :1:1 
+`uc 1 PA1 1 0 :1:2 
+]
+[u S212 . 1 `S179 1 . 1 0 `S188 1 . 1 0 `S197 1 . 1 0 `S206 1 . 1 0 `S208 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES212  1 e 1 @3970 ]
+"1036
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+[s S64 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1290
+[u S82 . 1 `S64 1 . 1 0 `S73 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES82  1 e 1 @3987 ]
+"1480
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"3697
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+[s S24 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"5198
+[s S31 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+`uc 1 T0PS3 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 T016BIT 1 0 :1:6 
+]
+[u S38 . 1 `S24 1 . 1 0 `S31 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES38  1 e 1 @4053 ]
+"5258
+[v _TMR0 TMR0 `VEus  1 e 2 @4054 ]
+"6403
+[v _GIE GIE `VEb  1 e 0 @32663 ]
+"6469
+[v _INT0IE INT0IE `VEb  1 e 0 @32660 ]
+"6472
+[v _INT0IF INT0IF `VEb  1 e 0 @32657 ]
+"6517
+[v _INTEDG0 INTEDG0 `VEb  1 e 0 @32654 ]
+"6847
+[v _PEIE PEIE `VEb  1 e 0 @32662 ]
+"6874
+[v _PSA PSA `VEb  1 e 0 @32427 ]
+"7177
+[v _T08BIT T08BIT `VEb  1 e 0 @32430 ]
+"7183
+[v _T0CS T0CS `VEb  1 e 0 @32429 ]
+"7273
+[v _TMR0IE TMR0IE `VEb  1 e 0 @32661 ]
+"7276
+[v _TMR0IF TMR0IF `VEb  1 e 0 @32658 ]
+"7282
+[v _TMR0ON TMR0ON `VEb  1 e 0 @32431 ]
+"7384
+[v _TRISB6 TRISB6 `VEb  1 e 0 @31902 ]
+"42 C:\Users\HP\MPLABXProjects\Automation.X\remote.c
+[v _cmd cmd `i  1 e 2 0 ]
+"44
+[v _speed speed `i  1 e 2 0 ]
+"46
+[v _dat dat `[100]ui  1 e 200 0 ]
+"48
+[v _i i `i  1 e 2 0 ]
+"52
+[v _j j `i  1 e 2 0 ]
+"95
+[v _main main `(v  1 e 1 0 ]
+{
+"355
+} 0
+"68
+[v _timer timer `(v  1 e 1 0 ]
+{
+"92
+} 0
+"56
+[v _delay delay `(v  1 e 1 0 ]
+{
+"62
+[v delay@j j `i  1 a 2 14 ]
+"60
+[v delay@i i `i  1 a 2 12 ]
+"56
+[v delay@time time `i  1 p 2 9 ]
+"64
+} 0
+"358
+[v _isr isr `IIH(v  1 e 1 0 ]
+{
+"367
+[v isr@t t `i  1 a 2 7 ]
+"382
+} 0
+"56
+[v i2_delay delay `(v  1 e 1 0 ]
+{
+"62
+[v i2delay@j j `i  1 a 2 5 ]
+"60
+[v i2delay@i i `i  1 a 2 3 ]
+"56
+[v i2delay@time time `i  1 p 2 0 ]
+"64
+} 0
